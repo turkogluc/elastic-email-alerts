@@ -57,5 +57,8 @@ If you want to add as environment variable use capital letter and replace `.` wi
 
 ![](email-example.png)
 
-[comment]: <> (- [Micronaut HTTP Client documentation]&#40;https://docs.micronaut.io/latest/guide/index.html#httpClient&#41;)
+---
+
+###### Blog Post
+- [Documentation](https://turkogluc.com/centralised-logging-and-monitoring-with-elastic-stack/)
 
