@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: elasticEmailAlerts
+  server:
+    port: 8060
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+elastic:
+  username: "elastic"
+  password: "somethingsecret"
+  host: "localhost"
+  port: 9200
+  alertIndexName: "alert-log"
+
+email:
+  host: "smtp.mailgun.org"
+  port: "587"
+  username: ""
+  password: ""
+  to: ""
+  subject: "Elastic Metric Alert"
+  cc: "" # comma separated list
